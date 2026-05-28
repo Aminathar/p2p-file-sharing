@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller build artifacts
+build/
+dist/
+Output/
+*.spec.bak
+
+# Inno Setup output
+*.exe.bak
+Output/
+
+# User state (regenerated at runtime)
+config.json
+transfer_history.json
+web_history.json
+mobile_history.json
+
+# Logs
+*.log
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# Claude Code session state
+.claude/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Backups / archives
+*.zip
+_archive/
