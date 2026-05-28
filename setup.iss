@@ -3,8 +3,8 @@
 
 #define MyAppName "P2P File Sharing"
 #define MyAppVersion "1.0"
-#define MyAppPublisher "Antigravity User"
-#define MyAppURL "https://github.com/yourusername/p2p-sharing"
+#define MyAppPublisher "Amin Athar"
+#define MyAppURL "https://github.com/Aminathar/p2p-file-sharing"
 #define MyAppExeName "P2PFileSharing.exe"
 
 [Setup]
