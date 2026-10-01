@@ -27,7 +27,7 @@ Built with Python + PyQt6. Targets Windows. Trilingual UI (English / Русск�
 - Windows 10 or 11
 - Python 3.10+ (only if running from source)
 - The two computers must be on the **same local network**, and Windows Firewall
-  must allow the app — see [Firewall setup](#firewall-setup) below
+  must allow the app - see [Firewall setup](#firewall-setup) below
 
 ## Install
 
