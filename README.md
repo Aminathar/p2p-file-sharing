@@ -1,7 +1,7 @@
 # P2P File Sharing
 
 A peer-to-peer file sharing app for your local network. Two computers on the same
-WiFi can discover each other and transfer files directly — no cloud, no upload to
+WiFi can discover each other and transfer files directly - no cloud, no upload to
 a third-party server, no account. Includes a built-in mobile uploader: phones on
 the same network can drop files into the app through their browser.
 
@@ -14,7 +14,7 @@ Built with Python + PyQt6. Targets Windows. Trilingual UI (English / Русск�
 - **Resume support.** Partial files survive disconnects; transfers pick up where
   they left off and verify with MD5.
 - **Per-chunk CRC32 + per-file MD5** for integrity (hashes computed by hand-written
-  x86-64 assembly DLLs — see `crc32.asm` / `md5.asm`).
+  x86-64 assembly DLLs - see `crc32.asm` / `md5.asm`).
 - **Mobile uploader.** Built-in HTTP server at `http://<pc-ip>:8000` so phones on
   the same WiFi can authorize with a 6-digit code and upload/download files.
 - **Pause / resume / cancel** on both sides.
@@ -64,7 +64,7 @@ PowerShell script that adds the right rules:
 
 Without this, the app may run fine but other PCs won't see yours in the device
 list. If you're on a "Public" network profile, also switch it to "Private" in
-Windows network settings — broadcast traffic is blocked on Public networks.
+Windows network settings - broadcast traffic is blocked on Public networks.
 
 ## Usage
 
@@ -97,4 +97,4 @@ protocol, chunking strategy, custom DLL design, and timeouts.
 
 ## License
 
-[MIT](LICENSE) — Amin Athar
+[MIT](LICENSE) - Amin Athar
